@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*  tudo que HTML for 'id' é igual '#' no CSS (sem aspas)
+    tudo que HTML for 'class' é igual '.' no CSS (sem aspas)*/
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+    background-color: aqua;
+    text-align: right;
+}
+
+h2{
+    color: rgb(51, 77, 49);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(9, 98, 12);
+    color: aliceblue;
+}
+
+.basico {
+    color: blue;
+    font-weight: normal;
+}
+
+.intermediario {
+    color: brown;
+    font-weight: lighter;
+}
+
+.avancado {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.destaque{
+    background-color: rgba(209, 209, 118, 0.746);
+}
